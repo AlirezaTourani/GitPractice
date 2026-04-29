@@ -1,0 +1,1 @@
+When your README is viewed on GitHub, any content beyond 500 KiB will be truncated.
