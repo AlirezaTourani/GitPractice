@@ -14,7 +14,6 @@ def test4():
 
 def test5():
     return "test5"
-turn "test"
 
 def test2():
     return "test2"
