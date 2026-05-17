@@ -50,7 +50,6 @@ def test6():
     return "test4"
 
 
-<<<<<<< HEAD
 def test6():
     return "test4"
 
