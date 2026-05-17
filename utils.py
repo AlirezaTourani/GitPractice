@@ -56,3 +56,39 @@ for i in range(1000):
     
 for i in range(1000):
     print(i+1)
+
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+
+for i in range(100889890):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)

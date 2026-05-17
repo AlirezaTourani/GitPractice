@@ -1,7 +1,7 @@
 import pandas
 import numpy
 
-print("hello")
+print("hellweolkweo")
 
 for i in range(10):
     print(i+1)
@@ -15,4 +15,41 @@ for i in range(1000):
     
 for i in range(1000):
     print(i+1)
+for i in range(1000):
+    print(i+1)
 
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
