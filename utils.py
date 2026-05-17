@@ -20,3 +20,21 @@ def test6():
 
 def test7():
     return "test5"
+
+def test7():
+    return "test5"
+
+def test7():
+    return "test5"
+
+def test7():
+    return "test5"
+
+for i in range(1000):
+    print(i+1)
+
+for i in range(1000):
+    print(i+1)
+    
+for i in range(1000):
+    print(i+1)
