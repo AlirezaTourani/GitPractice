@@ -14,3 +14,9 @@ def test4():
 
 def test5():
     return "test5"
+
+def test6():
+    return "test4"
+
+def test7():
+    return "test5"
