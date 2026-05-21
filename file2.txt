@@ -1,0 +1,117 @@
+In Git, **upstream** means the **default remote branch that your local branch is connected to (tracking)**.
+
+It tells Git:
+
+- where to **pull from**
+- where to **push to**
+
+without you specifying the remote and branch every time.
+
+---
+
+## Example
+
+Suppose you run:
+
+```bash
+git push -u origin main
+```
+
+This does two things:
+
+1. Pushes `main` to `origin/main`
+2. Sets **origin/main as the upstream of your local `main`**
+
+Now Git records this relationship:
+
+```
+local branch: main
+tracks: origin/main
+```
+
+---
+
+## How it affects `git pull`
+
+If you run:
+
+```bash
+git pull
+```
+
+Git automatically knows:
+
+```
+pull from origin/main
+```
+
+because that is the **upstream branch**.
+
+Equivalent to:
+
+```bash
+git pull origin main
+```
+
+---
+
+## How it affects `git push`
+
+If you run:
+
+```bash
+git push
+```
+
+Git automatically pushes:
+
+```
+main → origin/main
+```
+
+because that is the upstream.
+
+Equivalent to:
+
+```bash
+git push origin main
+```
+
+---
+
+## How to see the upstream branch
+
+```bash
+git branch -vv
+```
+
+Example output:
+
+```
+* main    a1b2c3d [origin/main] Add login feature
+  testing 4f5g6h7 [origin/testing] Fix bug
+```
+
+The part in brackets is the **upstream**.
+
+---
+
+## Changing upstream
+
+You can change it:
+
+```bash
+git branch --set-upstream-to=origin/test main
+```
+
+Now:
+
+```
+local main → tracks origin/test
+```
+
+---
+
+✅ **Simple way to think about it**
+
+Upstream = **the default remote branch your local branch follows** for push and pull.
