@@ -1,54 +1,7 @@
 import numpy
 
-print("hellweolkweo")
+print("hello world")
 
-for i in range(10):
-    print(i+1)
+for i in range(120):
+    print(i+781)
 
-
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-    
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-    
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-    
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-for i in range(1000):
-    print(i+1)
-
-for i in range(1000):
-    print(i+1)
-    
-for i in range(1000):
-    print(i+1)
